@@ -21,11 +21,13 @@ public class StateRunner {
 		dao.save(dto4);
 		dao.save(dto5);
 		dao.save(dto6);
-		
-		StateDAO dao1=new StateDAO();
-        dao1.deleteById(18);
 
+        dao.readOperationById(14);
 
+		dao.deleteOperation(15);
+		dao.displayAll();
+
+		dao.displayTotalRows();
 	}
 
 }

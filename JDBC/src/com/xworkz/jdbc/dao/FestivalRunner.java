@@ -22,8 +22,13 @@ public class FestivalRunner {
 		dao.save(dto5);
 		dao.save(dto6);
 		
-		FestivalDAO dao1=new FestivalDAO();
-        dao1.deleteById(18);
+
+        dao.readOperationById(14);
+
+		dao.deleteOperation(5);
+		dao.displayAll();
+
+		dao.displayTotalRows();
 
 	}
 }

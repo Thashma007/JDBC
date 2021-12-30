@@ -24,6 +24,13 @@ public class CountryRunner {
 	dao.save(dto7);
 
 	dao.deleteOperation(5);
+    
+	dao.readOperationById(4);
+
+	dao.deleteOperation(5);
+	dao.displayAll();
+
+	dao.displayTotalRows();
 
 
 	}

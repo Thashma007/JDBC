@@ -23,6 +23,12 @@ public class IcecreamsRunner {
 		
 		IcecreamsDAO dao1=new IcecreamsDAO();
         dao1.deleteById(18);
+        dao.readOperationById(14);
+
+		dao.deleteOperation(15);
+		dao.displayAll();
+
+		dao.displayTotalRows();
 
 	}
 }

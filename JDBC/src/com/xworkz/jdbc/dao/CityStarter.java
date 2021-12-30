@@ -25,7 +25,12 @@ public class CityStarter {
 			dao.save(dto7);
 
 			dao.deleteOperation(4);
+			dao.readOperationById(4);
 
+			dao.deleteOperation(5);
+			dao.displayAll();
+
+			dao.displayTotalRows();
 
 		}
 
